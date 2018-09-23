@@ -25,6 +25,9 @@ sudo vim apache2.conf
   - add at the end of the file the line: Include /etc/phpmyadmin/apache.conf
   - save and quit with: :wq
 sudo service apache2 restart
+sudo dpkg-reconfigure locales
+  - select "fr_FR.UTF-8" with SPACE and valid with ENTER
+  - select "fr_FR.UTF-8" as default locale and valid with ENTER
 ```
 
 ## Authors
